@@ -34,7 +34,7 @@ const Home = ({ theme, countries }) => {
   return (
     <main className="container-fluid mt-5 pt-5">
 
-      <div className="d-flex justify-content-between mb-4 no-gutters flex-row flex-xsm-column">
+      <div>
         <InputSearch handleChange={handleChange} searchVal={searchVal} theme={theme}/>
         <SelectSearch handleChange={handleChange} theme={theme} />
       </div>
