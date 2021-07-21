@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Info from './components/Info';
 import Service from './filter/Service';
+import Istatistik from './components/Istatistik';
 
 
 const App = (props) => {
@@ -57,6 +58,7 @@ const App = (props) => {
             <Info countries={countries} {...props} theme={theme}/>
           }
         />
+          <Route path='/chart' component={Istatistik} theme={theme}/>
       </Switch>
       </BrowserRouter>
     </div>

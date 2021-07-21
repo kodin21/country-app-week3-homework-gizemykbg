@@ -13,9 +13,12 @@ const search = (search) => http.get("/search", { params: { q: search } });
 
 const region = (region) => http.get(`/region/${region}`);
 
+const chart = (chart) => http.get(`/chart/${chart}`);
+
 export default {
   list,
   search,
   region,
   info,
+  chart,
 };

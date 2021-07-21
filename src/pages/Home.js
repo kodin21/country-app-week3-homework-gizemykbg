@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import Card from '../components/Card';
 import InputSearch from '../components/SearchInput';
 import SelectSearch from '../components/SelectRegion';
+import Istatistik from '../components/Istatistik';
+import Nav from '../components/Nav';
 
 const Home = ({ theme, countries }) => {
   const [searchVal, setSearchVal] = useState('');
@@ -37,6 +39,7 @@ const Home = ({ theme, countries }) => {
       <div>
         <InputSearch handleChange={handleChange} searchVal={searchVal} theme={theme}/>
         <SelectSearch handleChange={handleChange} theme={theme} />
+       <Nav />
       </div>
 
       {countries ? (

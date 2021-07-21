@@ -40,7 +40,7 @@ a:hover {
   text-decoration: none;
 }
 
-.searchBox {
+.search-box {
   float: left;
   width: 45%;
   padding: 10px;
@@ -115,4 +115,11 @@ a:hover {
   input {
     margin-bottom: 20px;
   }
+}
+.nav {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  justify-content: center;
+  text-align: center;
 }

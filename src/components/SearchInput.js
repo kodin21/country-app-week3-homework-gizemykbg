@@ -1,8 +1,8 @@
 import React from 'react';
 
 const SearchInput = ({ handleChange, searchVal, theme }) => (
-  <div className="searchBox">
-    <form>
+  <div>
+    <form  className="search-box">
       <input 
         name="search"
         type="text"
@@ -15,4 +15,4 @@ const SearchInput = ({ handleChange, searchVal, theme }) => (
   </div>
 );
 
-export default SearchInput;
+export default SearchInput
